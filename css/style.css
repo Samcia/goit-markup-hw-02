@@ -48,7 +48,6 @@ body {
 
 .button-bg {
   background-color: #2f303a;
-  position: absolute;
   width: 1600px;
   height: 300px;
   left: 3px;
@@ -56,12 +55,10 @@ body {
 }
 .header1-style {
   text-align: center;
-  font: size 44px;
+  font-size: 44px;
   letter-spacing: 0.06em;
   background-color: #2f303a;
   color: #ffffff;
-  font-style: normal;
-  font-size: 44px;
   line-height: 1.36;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-width: 1600px;
@@ -88,7 +85,6 @@ body {
   line-height: 1, 5;
   text-decoration: none;
   justify-content: center;
-  display: inline-flex;
 }
 
 .header3-style {
@@ -132,6 +128,7 @@ body {
   color: #ffffff;
   cursor: pointer;
   text-decoration: none;
+  list-style: none;
 }
 
 .ftr-links .ftr-links:hover,
