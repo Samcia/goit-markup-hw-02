@@ -15,12 +15,16 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  text-decoration: none;
+  cursor: pointer;
 }
 .logo-web {
   color: #2196f3;
 }
 .social-links .link {
-  color: #757575;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .social-links .link:hover,
@@ -32,14 +36,15 @@ body {
   color: #2196f3;
 }
 
-.bg {
+.button-bg {
   background-color: #2f303a;
   position: absolute;
   width: 1600px;
   height: 300px;
   left: 3px;
+  cursor: pointer;
 }
-.h1-style {
+.header1-style {
   text-align: center;
   font: size 44px;
   letter-spacing: 0.06em;
@@ -53,81 +58,89 @@ body {
   border-width: 1600px;
   border-height: 600px;
 }
-.list-items {
-  padding-top: 90px;
-}
-
-.h3-style {
-  font-size: 14px;
-  font-weight: 700;
-  padding-top: 200px;
-}
-.lorem-ipsum {
-  font-size: 14px;
-  font-weight: 400;
-}
-
 .order {
   background-color: #2196f3;
   color: #ffffff;
   text-align: center;
   font-size: 16px;
   margin-left: 750px;
+  cursor: pointer;
 }
 .order:hover,
 .order:focus {
-  color: #2196f3;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .order:active {
-  color: #2196f3;
+  background-color: #2196f3;
+  color: #ffffff;
 }
-.h2-style {
+.list-items {
+  padding-top: 90px;
+  line-height: 6;
+}
+
+.header3-style {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1, 7;
+}
+.paragraph-desc {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header2-style {
   font-size: 36px;
   font-weight: 700px;
   text-align: center;
   color: #212121;
 }
 
-.agency {
-  width: 53px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
+.team-style {
+  background-color: #f5f4fa;
 }
-.portfolio {
-  color: 2196F3;
+.team-cards {
+  padding: 8px;
+  border: 1px solid #212121;
 }
-.img6 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
+.ftr-style {
+  background-color: #2f303a;
 }
-.img7 {
-  width: 370px;
-  height: 294px;
-  left: 615px;
-  top: 262px;
+.logo-ftr {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 36px;
+  font-family: "Raleway";
 }
-.img8 {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 1015px;
-  top: 262px;
+.ftr-links {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.img10 {
+.ftr-links .ftr-links:hover,
+.ftr-links .ftr-links:focus {
+  color: #2196f3;
 }
-.img11 {
+
+.ftr-links .ftr-links:active {
+  color: #2196f3;
 }
-.img12 {
-}
-.img13 {
-}
-.img14 {
-}
-.footer-background {
+class .footer-background {
   background-color: #2f303a;
+}
+.btn-types {
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn-types:hover,
+.btn-types:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.btn-types:active {
+  background-color: #2196f3;
+  color: #ffffff;
 }
