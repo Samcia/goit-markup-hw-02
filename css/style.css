@@ -13,6 +13,7 @@ body {
 }
 .header-links {
   text-decoration: none;
+  color: var(--color);
 }
 .logo {
   width: 145px;
@@ -34,26 +35,30 @@ body {
 .social-links {
   text-decoration: none;
   display: flex;
+  list-style: none;
 }
 .social-links .link {
-  color: black;
+  color: var(--color);
   text-decoration: none;
   cursor: pointer;
+  list-style: none;
 }
 .link {
   text-decoration: none;
+  color: var(--color);
+  list-style: none;
 }
 .social-links .link:hover,
 .social-links .link:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 .social-links .link:active {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 .button-bg {
-  background-color: #2f303a;
+  background-color: var(--ftr-background);
   width: 1600px;
   height: 300px;
   left: 3px;
@@ -63,16 +68,16 @@ body {
   text-align: center;
   font-size: 44px;
   letter-spacing: 0.06em;
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--ftr-background);
+  color: var(--logo-ftr);
   line-height: 1.36;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-width: 1600px;
   border-height: 600px;
 }
 .order {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--logo-color);
+  color: var(--logo-ftr);
   text-align: center;
   font-size: 16px;
   margin-left: 750px;
@@ -80,17 +85,18 @@ body {
 }
 .order:hover,
 .order:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--logo-color);
+  color: var(--logo-ftr);
 }
 .order:active {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--logo-color);
+  color: var(--logo-ftr);
 }
 .list-items {
   line-height: 1.5;
   text-decoration: none;
   justify-content: center;
+  list-style: none;
 }
 
 .header3-style {
@@ -171,4 +177,5 @@ body {
   border: 1px solid var(--border-color);
   display: inline-flex;
   justify-content: center;
+  line-height: 1.5;
 }
