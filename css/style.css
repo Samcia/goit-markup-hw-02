@@ -109,13 +109,19 @@ body {
   text-align: center;
   display: inline-flex;
 }
-
+.solutions-desc {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+}
 .header3-style {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.5;
   text-decoration: none;
-  display: block;
+  display: flex;
 }
 .paragraph-desc {
   font-size: 14px;
