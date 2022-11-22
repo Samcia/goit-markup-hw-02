@@ -109,6 +109,9 @@ body {
   text-align: center;
   display: inline-flex;
 }
+.parent-style {
+  display: flex;
+}
 .solutions-desc {
   display: flex;
   flex-direction: column;
